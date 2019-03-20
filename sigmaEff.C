@@ -1,3 +1,6 @@
+//
+// Unbinned sigma effective
+//
 float sigmaEff(vector<float> v, float threshold, float& xmin, float& xmax){
   
     std::sort(v.begin(),v.end());
